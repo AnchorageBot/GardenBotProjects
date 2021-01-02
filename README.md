@@ -1,7 +1,9 @@
 # GardenBot
 
   Datalogger & Controller
-    Arduino Uno
+  
+    *Arduino Uno
     
   Datalogger
-    Adafruit 32u4
+  
+    *Adafruit 32u4
