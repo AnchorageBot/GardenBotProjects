@@ -8,14 +8,14 @@
   
     [Adafruit 32u4 Code](https://github.com/AnchorageBot/GardenBot/blob/master/Adafruit32u4_GardenBot.ino)
 
-  Version 3 - Adafruit Sense Datalogger
+  ## Version 3 - Adafruit Sense Datalogger
   
-    [Adafruit Sense Code]
+    [Adafruit Sense Code](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitSense_GardenBot.py)
   
-  Version 4 - Adafruit CLUE Datalogger
+  ## Version 4 - Adafruit CLUE Datalogger
   
-    [Adafruit CLUE Code]
+    [Adafruit CLUE Code]()
   
-  Server - Raspberry Pi Zero, 3+, and or 4
+  ## Server - Raspberry Pi Zero, 3+, and or 4
   
     *Import
