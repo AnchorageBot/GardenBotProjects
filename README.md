@@ -12,13 +12,13 @@
   
    [Adafruit Sense Code](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitSense_GardenBot.py)
   
-   Version 4A - CLUE and RPi Cam - Separate
+   Version 4A - Adafruit CLUE and RPi Cam - Separate
   
    [Adafruit CLUE Code](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitCLUE_GardenBot.py)
     
    [Raspberry Pi Cam Code](https://github.com/AnchorageBot/GardenBot/blob/master/RPi_Cam.py)
   
-   Version 4B - CLUE and RPi Cam - Combo
+   Version 4B - Adafruit CLUE and RPi Cam - Combo
   
     [Combo Code]()
   
