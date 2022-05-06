@@ -20,7 +20,7 @@
   
   ## Version 4B - CLUE and RPi Cam - Combo
   
-    [Raspberry Pi Combo Code]()
+    [Combo Code]()
   
   ## Server - Raspberry Pi Zero, 3+, and or 4
   
