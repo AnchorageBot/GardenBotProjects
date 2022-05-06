@@ -1,28 +1,28 @@
 ## GardenBot - a code repository for creating bots that provide a data pipeline from a garden 
 
-   Version 1 - Arduino Uno Datalogger & Controller 
+   GardenBot Version 1 - Arduino Uno Datalogger & Controller 
   
    [Arduino Uno Code](https://github.com/AnchorageBot/GardenBot/blob/master/Adafruit32u4_GardenBot.ino)
     
-   Version 2 - Adafruit 32u4 Datalogger
+   GardenBot Version 2 - Adafruit 32u4 Datalogger
   
    [Adafruit 32u4 Code](https://github.com/AnchorageBot/GardenBot/blob/master/Adafruit32u4_GardenBot.ino)
 
-   Version 3 - Adafruit Sense Datalogger
+   GardenBot Version 3 - Adafruit Sense Datalogger
   
    [Adafruit Sense Code](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitSense_GardenBot.py)
   
-   Version 4A - Adafruit CLUE and RPi Cam - Separate
+   GardenBot Version 4A - Adafruit CLUE and RPi Cam - Separate
   
    [Adafruit CLUE Code](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitCLUE_GardenBot.py)
     
    [Raspberry Pi Cam Code](https://github.com/AnchorageBot/GardenBot/blob/master/RPi_Cam.py)
   
-   Version 4B - Adafruit CLUE and RPi Cam - Combo
+   GardenBot Version 4B - Adafruit CLUE and RPi Cam - Combo
   
     [Combo Code]()
   
-   Server - Raspberry Pi Zero, 3+, and or 4
+   Server - Raspberry Pi Zero, 3+, and or 4 - Connect to any version of GardenBot
   
    [Raspberry Pi Server Code](https://github.com/AnchorageBot/GardenBot/blob/master/RPi_Get_MCU_Data.py)
    
