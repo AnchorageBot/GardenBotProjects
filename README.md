@@ -1,4 +1,4 @@
-## GardenBot - a code repository for creating bots that provide a data pipeline from a garden 
+## GardenBot - a code repository for data-logger and data-analysis bots 
 
    GardenBot Version 1 - Arduino Uno Datalogger & Controller 
   
