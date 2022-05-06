@@ -24,4 +24,4 @@
   
   ## Server - Raspberry Pi Zero, 3+, and or 4
   
-    [Raspberry Pi Server Code]()
+   [Raspberry Pi Server Code](https://github.com/AnchorageBot/GardenBot/blob/master/RPi_Get_MCU_Data.py)
