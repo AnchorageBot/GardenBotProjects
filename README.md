@@ -1,26 +1,23 @@
 # GardenBot
 
-  ## Version 1 - Datalogger & Controller 
+  ## Version 1 - Arduino Uno Datalogger & Controller 
   
-    Arduino Uno
-  
-    (Arduino Uno Code)[https://github.com/AnchorageBot/GardenBot/blob/master/Adafruit32u4_GardenBot.ino]
+    [Arduino Uno Code](https://github.com/AnchorageBot/GardenBot/blob/master/Adafruit32u4_GardenBot.ino)
     
-  ## Version 2 - Datalogger
+    *Import
+    
+  ## Version 2 - Adafruit 32u4 Datalogger
   
-    Adafruit 32u4 
-  
-    *Adafruit 32u4
+    [Adafruit 32u4 Code]()
 
-  Version 3 - Datalogger
+  Version 3 - Adafruit Sense Datalogger
   
-    *Adafruit Sense
+    *Import
   
-  Version 4 - Datalogger
+  Version 4 - Adafruit CLUE Datalogger
   
-    *Adafruit Clue
+    *Import
   
-  Server
+  Server - Raspberry Pi Zero, 3+, and or 4
   
-    *Raspberry Pi Zero
-    *Raspberry Pi 3+
+    *Import
