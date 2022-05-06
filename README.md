@@ -12,7 +12,9 @@
   
     [Adafruit Sense Code](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitSense_GardenBot.py)
   
-  ## Version 4A - Adafruit CLUE Datalogger and Raspberry Pi Zero Timelapse Camera - Separate
+  ## Version 4A 
+  
+    ## - Adafruit CLUE Datalogger and Raspberry Pi Zero Timelapse Camera - Separate
   
     [Adafruit CLUE Code](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitCLUE_GardenBot.py)
     
