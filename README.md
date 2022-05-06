@@ -5,8 +5,6 @@
     Arduino Uno
   
     (Arduino Uno Code)[https://github.com/AnchorageBot/GardenBot/blob/master/Adafruit32u4_GardenBot.ino]
-  
-    *Arduino Uno Code
     
   ## Version 2 - Datalogger
   
