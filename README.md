@@ -12,7 +12,7 @@
   
    [Adafruit 32u4 PV Code](https://github.com/AnchorageBot/GardenBotProjects/blob/master/Adafruit32u4_GardenBotPV.ino) 
 
-   GardenBot Version - Adafruit Sense Datalogger
+   GardenBot Version 3 - Adafruit Sense Datalogger
   
    [Adafruit Sense Code](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitSense_GardenBot.py)
      
