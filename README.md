@@ -4,18 +4,18 @@
   
    [Arduino Uno Code](https://github.com/AnchorageBot/GardenBotProjects/blob/master/ArduinoUno_GardenBot.ino)
     
-   GardenBot Version 2 - Adafruit 32u4 Datalogger
+   GardenBot Version 2A - Adafruit 32u4 Datalogger
   
    [Adafruit 32u4 Code](https://github.com/AnchorageBot/GardenBot/blob/master/Adafruit32u4_GardenBot.ino)
 
-   GardenBot Version 3A - Adafruit Sense Datalogger
+   GardenBot Version 2B - Adafruit 32u4 Datalogger w/Photovoltaics (Solar Panel)
+  
+   [Adafruit Sense Code](https://github.com/AnchorageBot/GardenBotProjects/blob/master/Adafruit32u4_GardenBotPV.ino) 
+
+   GardenBot Version - Adafruit Sense Datalogger
   
    [Adafruit Sense Code](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitSense_GardenBot.py)
-  
-   GardenBot Version 3B - Adafruit Sense Datalogger w/Photovoltaics (Solar Panel)
-  
-   [Adafruit Sense Code](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitSense_GardenBot.py)   
-   
+     
    GardenBot Version 4A - Adafruit CLUE and RPi Cam - Separate
   
    [Adafruit CLUE Code](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitCLUE_GardenBot.py)
