@@ -30,7 +30,11 @@
   
    [Raspberry Pi Server Code](https://github.com/AnchorageBot/GardenBot/blob/master/RPi_Get_MCU_Data.py)
    
-   License
+   ## Resources
+   
+   [How-to build data loggers](https://www.youtube.com/watch?v=elFbWEZ7P-I&list=PLWcz3iwCnCqTSULmKns48ny1StvNqLi2d&index=1)
+   
+   ## License
    
    [MIT](https://choosealicense.com/licenses/mit/)
 
