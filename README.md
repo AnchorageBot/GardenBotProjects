@@ -10,7 +10,7 @@
 
    GardenBot Version 2B - Adafruit 32u4 Datalogger w/Photovoltaics (Solar Panel)
   
-   [Adafruit Sense Code](https://github.com/AnchorageBot/GardenBotProjects/blob/master/Adafruit32u4_GardenBotPV.ino) 
+   [Adafruit 32u4 PV Code](https://github.com/AnchorageBot/GardenBotProjects/blob/master/Adafruit32u4_GardenBotPV.ino) 
 
    GardenBot Version - Adafruit Sense Datalogger
   
