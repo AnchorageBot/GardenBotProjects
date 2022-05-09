@@ -40,6 +40,8 @@
    
    [Microsoft Machine Learning Course](https://github.com/microsoft/ML-For-Beginners)
    
+   [Jean de Dieu Nyandwi's Suggested ML Resources](https://github.com/Nyandwi/machine_learning_complete)
+   
    ## License
    
    [MIT](https://choosealicense.com/licenses/mit/)
