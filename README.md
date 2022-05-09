@@ -40,6 +40,10 @@
    
    [Microsoft Machine Learning Course](https://github.com/microsoft/ML-For-Beginners)
    
+   [Google Data Analytics Course](https://grow.google/certificates/data-analytics/#?modal_active=none)
+   
+   [Google Tensorflow Courses and Resources](https://www.tensorflow.org/resources/learn-ml)
+   
    [Jean de Dieu Nyandwi's Suggested ML Resources](https://github.com/Nyandwi/machine_learning_complete)
    
    ## License
