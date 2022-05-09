@@ -32,7 +32,7 @@
    
    ## Resources
    
-   [How-to build data loggers](https://www.youtube.com/watch?v=elFbWEZ7P-I&list=PLWcz3iwCnCqTSULmKns48ny1StvNqLi2d&index=1)
+   [WildLabs How-to build data loggers](https://www.youtube.com/watch?v=elFbWEZ7P-I&list=PLWcz3iwCnCqTSULmKns48ny1StvNqLi2d&index=1)
    
    [Microsoft IoT Course](https://github.com/microsoft/IoT-For-Beginners)
    
