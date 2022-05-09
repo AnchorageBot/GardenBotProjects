@@ -36,6 +36,10 @@
    
    [Microsoft IoT Course](https://github.com/microsoft/IoT-For-Beginners)
    
+   [Microsoft Datascience Course](https://github.com/microsoft/Data-Science-For-Beginners)
+   
+   [Microsoft Machine Learning Course](https://github.com/microsoft/ML-For-Beginners)
+   
    ## License
    
    [MIT](https://choosealicense.com/licenses/mit/)
