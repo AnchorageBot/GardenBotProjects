@@ -3,6 +3,7 @@
 # Engineering: 
   # Pimoroni 
     # https://learn.pimoroni.com/article/assembling-octocam
+    # https://learn.pimoroni.com/article/make-a-timelapse-with-octocam
     # https://github.com/pimoroni
    # Picamera
     # https://picamera.readthedocs.io/en/release-1.13/development.html
