@@ -37,7 +37,8 @@ try:
     ts=time.strftime("%Y-%m-%-%H%M%s", time.gmtime())
     camera.capture('img-'+ts+'.jpg')
     time.sleep(3600)
- 
+    
+# press "ctrl" and "c" keys to exit the script
 except KeyboardInterrupt:
   camera.stop_preview()
   sys.exit()
