@@ -6,23 +6,15 @@
 
    [GardenBot Version 2B](https://github.com/AnchorageBot/GardenBotProjects/blob/master/Adafruit32u4_GardenBotPV.ino) - Adafruit 32u4 Datalogger w/Photovoltaics (Solar Panel)
 
-   GardenBot Version 3 - Adafruit Sense Datalogger
-  
-   [Adafruit Sense Script](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitSense_GardenBot.py)
-     
-   GardenBot Version 4A - Adafruit CLUE and RPi Cam - Separate
+   [GardenBot Version 3](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitSense_GardenBot.py) - Adafruit Sense Datalogger
+       
+   GardenBot Version 4A - Adafruit CLUE and RPi Cam
   
    [Adafruit CLUE Script](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitCLUE_GardenBot.py)
     
    [Raspberry Pi Cam Script](https://github.com/AnchorageBot/GardenBot/blob/master/RPi_Cam.py)
   
-   GardenBot Version 4B - Adafruit CLUE and RPi Cam - Combo
-  
-    [Combo Script]()
-  
-   Server - Raspberry Pi Zero, 3+, and or 4 - Connect to any version of GardenBot
-  
-   [Raspberry Pi Server Script](https://github.com/AnchorageBot/GardenBot/blob/master/RPi_Get_MCU_Data.py)
+   [Serial Cable Server](https://github.com/AnchorageBot/GardenBot/blob/master/RPi_Get_MCU_Data.py) - Raspberry Pi Zero, 3+, and or 4 - Connect to any version of GardenBot 
    
    ## Resources
    
