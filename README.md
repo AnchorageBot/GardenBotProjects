@@ -2,9 +2,7 @@
 
    [GardenBot Version 1](https://github.com/AnchorageBot/GardenBotProjects/blob/master/ArduinoUno_GardenBot.ino) - Arduino Uno Datalogger & Controller 
     
-   GardenBot Version 2A - Adafruit 32u4 Datalogger
-  
-   [Adafruit 32u4 Script](https://github.com/AnchorageBot/GardenBot/blob/master/Adafruit32u4_GardenBot.ino)
+   [GardenBot Version 2A](https://github.com/AnchorageBot/GardenBot/blob/master/Adafruit32u4_GardenBot.ino) - Adafruit 32u4 Datalogger 
 
    GardenBot Version 2B - Adafruit 32u4 Datalogger w/Photovoltaics (Solar Panel)
   
