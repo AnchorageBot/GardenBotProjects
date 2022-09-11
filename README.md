@@ -8,11 +8,7 @@
 
    [GardenBot Version 3](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitSense_GardenBot.py) - Adafruit Sense Datalogger
        
-   GardenBot Version 4A - Adafruit CLUE and RPi Cam
-  
-   [Adafruit CLUE Script](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitCLUE_GardenBot.py)
-    
-   [Raspberry Pi Cam Script](https://github.com/AnchorageBot/GardenBot/blob/master/RPi_Cam.py)
+   GardenBot Version 4 - [Adafruit CLUE](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitCLUE_GardenBot.py)and [RPi Cam](https://github.com/AnchorageBot/GardenBot/blob/master/RPi_Cam.py)
   
    [Serial Cable Server](https://github.com/AnchorageBot/GardenBot/blob/master/RPi_Get_MCU_Data.py) - Raspberry Pi Zero, 3+, and or 4 - Connect to any version of GardenBot 
    
