@@ -10,7 +10,7 @@
        
    [GardenBot Version 4](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitCLUE_GardenBot.py) - Adafruit CLUE Datalogger
    
-   [RPi Cam](https://github.com/AnchorageBot/GardenBot/blob/master/RPi_Cam.py) - Raspberry Zero
+   [RPi Cam](https://github.com/AnchorageBot/GardenBot/blob/master/RPi_Cam.py) - Raspberry Zero Datalogger
   
    [RPi Server - Serial Cable](https://github.com/AnchorageBot/GardenBot/blob/master/RPi_Get_MCU_Data.py) - Raspberry Pi Zero, 3+, and or 4 - Connect to any version of GardenBot 
    
