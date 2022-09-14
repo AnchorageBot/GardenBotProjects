@@ -4,7 +4,7 @@
     
    [GardenBot Version 2A](https://github.com/AnchorageBot/GardenBot/blob/master/Adafruit32u4_GardenBot.ino) - Adafruit 32u4 Datalogger 
 
-   [GardenBot Version 2B](https://github.com/AnchorageBot/GardenBotProjects/blob/master/Adafruit32u4_GardenBotPV.ino) - Adafruit 32u4 Datalogger w/Photovoltaics (Solar Panel)
+   [GardenBot Version 2B](https://github.com/AnchorageBot/GardenBotProjects/blob/master/Adafruit32u4_GardenBotPV.ino) - Adafruit 32u4 Datalogger with Solar Panel
 
    [GardenBot Version 3](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitSense_GardenBot.py) - Adafruit Sense Datalogger
        
