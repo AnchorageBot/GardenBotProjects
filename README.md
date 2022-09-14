@@ -8,7 +8,7 @@
 
    [GardenBot Version 3](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitSense_GardenBot.py) - Adafruit Sense Datalogger
        
-   [GardenBot Version 4](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitCLUE_GardenBot.py) - Adafruit CLUE 
+   [GardenBot Version 4](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitCLUE_GardenBot.py) - Adafruit CLUE Datalogger
    
    [RPi Cam](https://github.com/AnchorageBot/GardenBot/blob/master/RPi_Cam.py) - Raspberry Zero
   
