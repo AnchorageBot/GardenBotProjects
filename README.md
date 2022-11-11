@@ -28,6 +28,8 @@
    
    [Google Tensorflow Courses and Resources](https://www.tensorflow.org/resources/learn-ml)
    
+   [EdgeImpulse Resources](https://www.edgeimpulse.com)
+   
    [Democratizing Artificial Intelligence Research](https://github.com/dair-ai)
    
    [Jean de Dieu Nyandwi's Suggested ML Resources](https://github.com/Nyandwi/machine_learning_complete)
