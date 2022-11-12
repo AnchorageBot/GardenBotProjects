@@ -10,7 +10,7 @@
        
    [GardenBot Version 4](https://github.com/AnchorageBot/GardenBot/blob/master/AdafruitCLUE_GardenBot.py) - Adafruit CLUE Datalogger
    
-   [GardenBot Version 5](https://github.com/AnchorageBot/GardenBotProjects/blob/master/Adafruit_CPB_GardenBot.py) - Adafruit CPB
+   [GardenBot Version 5](https://github.com/AnchorageBot/GardenBotProjects/blob/master/Adafruit_CPB_GardenBot.py) - Adafruit CPB Datalogger
    
    [RPi Cam](https://github.com/AnchorageBot/GardenBot/blob/master/RPi_Cam.py) - Raspberry Pi Zero Datalogger
   
