@@ -37,7 +37,7 @@ def microPower():
     print("Water pressure is similar to voltage")
     print("A typical IoT microcontroller requires 3.3 volts\n")
     
-    print("Power, or the rate of energy transfer, uses the units of Watts in electrical systems")
+    print("Power, or the rate of energy transfer, uses the units of Watts per unit of time in electrical systems")
     print("Watts can be calculated by multiplying Volts by Amps")
     #print("A typical IoT microcontroller requires 0.5 Watts per hour or 4.3 kWh per year\n")    
     print("A typical IoT microcontroller requires 0.5 Watts per hour or", hours*0.5/1000, "kWh per year\n")
