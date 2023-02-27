@@ -15,8 +15,9 @@ def yearlyHours():
     """This function calculates the number of hours in a year and updates a global variable"""
     #print("There are 365 days in a year")
     #print("There are 24 hours in a day")
+    #print("There are 8760 hours in a year")
     yH =+ 365*24
-    #print("There are ", yH, " hours in a year\n")
+    print("There are ", yH, " hours in a year\n")
 
     # this updates a global variable and is bad form ... todo redo script using object oriented programming
     global hours
