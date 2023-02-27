@@ -1,10 +1,11 @@
 # This script will provide a rough estimate for a solar panel and battery for a microcontroller
 
 # References 
+    # Andreas Spiess
     # 142 Solar Power for the ESP8266, Arduino, etc.
     # https://www.youtube.com/watch?v=WdP4nVQX-j0&t=3s
     
-    # NREL
+    # NREL Photovoltatic Calculator
     # https://pvwatts.nrel.gov/index.php
 
 hours = 0
