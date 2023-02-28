@@ -50,8 +50,8 @@ def microPower():
     
     print("Power, or the rate of energy transfer, uses the units of Watts (J/s) in electrical systems")
     print("Watts can be calculated by multiplying Volts by Amps")
-    #print("A typical IoT microcontroller requires 0.5 Watts per hour or 4.3 kWh per year\n")    
-    print("A typical IoT microcontroller requires 0.5 Watts per hour or", hours*0.5/1000, "kWh per year\n")
+    #print("A typical IoT microcontroller requires 0.5 Watts or 4.3 kWh per year\n")    
+    print("A typical IoT microcontroller requires 0.5 Watts or", hours*0.5/1000, "kWh per year\n")
 
     microCurrent = int(input("How many milliamps per hour does your IoT microcontroller need? "))
     microVoltage = float(input("How many Volts does your IoT microcontroller need? "))    
@@ -75,7 +75,7 @@ def solarPanel():
     
 def battery():
     """This function estimates the size of a battery needed to support a microcontroller"""
-    print("Anchorage Alaska will likely reach -15F in a typical January")
+    print("Anchorage Alaska will likely reach -15F during a typical January")
 
 def main():
     """This function calls the various script functions"""
