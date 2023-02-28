@@ -1,4 +1,4 @@
-# This script will provide a calculation that sizes a solar panel and battery for a microcontroller
+# This script will provide a calculation that helps to size a solar panel and battery for a microcontroller
 
 # References 
     # Andreas Spiess
@@ -37,7 +37,7 @@ def hoursCalc():
     
 def microPower():    
 #def microPower(microCurrent, microVoltage):
-    """This function calculates the number of kilowatt hours per year required by a typical microcontroller""" 
+    """This function calculates the number of kilowatt hours required by a typical microcontroller""" 
     print("Current is defined as the flow of electrons and uses the units of Amps per unit of time")
     print("There are 1000 milliamps in a Amp")
     #print("A typical IoT microcontroller requires 150 milliamps per hour or 1,314 Amps per year\n")    
@@ -50,14 +50,16 @@ def microPower():
     
     print("Power, or the rate of energy transfer, uses the units of Watts (J/s) in electrical systems")
     print("Watts can be calculated by multiplying Volts by Amps")
+    print("A typical IoT microcontroller requires 0.5 Watts or", 0.5/1000, "kWh\n")    
     #print("A typical IoT microcontroller requires 0.5 Watts or 4.3 kWh per year\n")    
-    print("A typical IoT microcontroller requires 0.5 Watts or", hours*0.5/1000, "kWh per year\n")
+    #print("A typical IoT microcontroller requires 0.5 Watts or", hours*0.5/1000, "kWh per year\n")
 
     microCurrent = int(input("How many milliamps per hour does your IoT microcontroller need? "))
     microVoltage = float(input("How many Volts does your IoT microcontroller need? "))    
     #microWatts = (150/1000)*3.3
     microWatts = round((microCurrent/1000)*microVoltage,3)
-    print("Your IoT microcontroller likely needs ", round(microWatts/1000,5), "kWh or ", round(hours*microWatts/1000,2), "kWh per year\n")
+    #print("Your IoT microcontroller likely needs ", round(microWatts/1000,5), "kWh or ", round(hours*microWatts/1000,2), "kWh per year\n")
+    print("Your IoT microcontroller likely needs ", round(microWatts/1000,5), "kWh\n")
     
     # this updates a global variable and is bad form ... to do: redo script using object oriented programming    
     global watts 
@@ -66,7 +68,7 @@ def microPower():
     #print(watts)
     
 def solarPanel():
-    """This function estimates the size of solar panel needed to support a microcontroller"""
+    """This function helps to estimate the size of solar panel needed to support a microcontroller"""
     print("Anchorage Alaska receives approximately 0.7 kWh of sunlight per square meter per day in January")
     print ("Anchorage Alaska receives approximately 6.5 hours of sunlight per day in January\n")
     
@@ -74,7 +76,7 @@ def solarPanel():
     print ("Anchorage Alaska receives approximately 19.2 hours of sunlight per day in June\n")    
     
 def battery():
-    """This function estimates the size of a battery needed to support a microcontroller"""
+    """This function helps to estimate the size of a battery needed to support a microcontroller"""
     print("Anchorage Alaska will likely reach -15F during a typical January")
 
 def main():
