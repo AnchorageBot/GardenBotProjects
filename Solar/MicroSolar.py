@@ -41,7 +41,8 @@ def microPower():
     print("Current is defined as the flow of electrons and uses the units of Amps per unit of time")
     print("There are 1000 milliamps in a Amp")
     #print("A typical IoT microcontroller requires 150 milliamps per hour or 1,314 Amps per year\n")    
-    print("A typical IoT microcontroller requires 150 milliamps per hour or", hours*150/1000, "Amps per year\n")
+    #print("A typical IoT microcontroller requires 150 milliamps per hour or", hours*150/1000, "Amps per year\n")
+    print("A typical IoT microcontroller requires 150 milliamps per hour\n")
     
     print("Voltage is defined as the electrical potential difference between two points and uses the units of Volts")
     print("Water pressure is similar to voltage")
