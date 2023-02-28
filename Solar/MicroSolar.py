@@ -72,7 +72,8 @@ def solarPanel():
     print("Anchorage Alaska receives approximately 5.06 kWh of sunlight per square meter per day in June")
     print ("Anchorage Alaska receives approximately 19.2 hours of sunlight per day in June\n")    
     
-def main():    
+def main():
+    """This function calls the various script functions"""
     hoursCalc()
     microPower()
     solarPanel()
