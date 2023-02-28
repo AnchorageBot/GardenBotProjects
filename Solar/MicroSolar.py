@@ -69,6 +69,8 @@ def microPower():
     
 def solarPanel():
     """This function helps to estimate the size of solar panel needed to support a microcontroller"""
+    print("A typical solar panel is likely to be able to capture 14% of available sunlight\n")
+    
     print("Anchorage Alaska receives approximately 0.7 kWh of sunlight per square meter per day in January")
     print ("Anchorage Alaska receives approximately 6.5 hours of sunlight per day in January\n")
     
