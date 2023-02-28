@@ -21,7 +21,7 @@
 hours = 0
 watts = 0
 
-def Hours():
+def hoursCalc():
     """This function calculates the number of hours and updates a global variable"""
     #print("There are 365 days in a year")
     #print("There are 24 hours in a day")
@@ -41,7 +41,7 @@ def microPower():
     print("Current is defined as the flow of electrons and uses the units of Amps per unit of time")
     print("There are 1000 milliamps in a Amp")
     #print("A typical IoT microcontroller requires 150 milliamps per hour or 1,314 Amps per year\n")    
-    print("A typical IoT microcontroller requires 150 milliamps per hour or", hours*150/1000, "Amps per year\n")
+    print("A typical IoT microcontroller requires 150 milliamps per hour or", hoursCalc*150/1000, "Amps per year\n")
     
     print("Voltage is defined as the electrical potential difference between two points and uses the units of Volts")
     print("Water pressure is similar to voltage")
@@ -50,13 +50,13 @@ def microPower():
     print("Power, or the rate of energy transfer, uses the units of Watts (J/s) in electrical systems")
     print("Watts can be calculated by multiplying Volts by Amps")
     #print("A typical IoT microcontroller requires 0.5 Watts per hour or 4.3 kWh per year\n")    
-    print("A typical IoT microcontroller requires 0.5 Watts per hour or", hours*0.5/1000, "kWh per year\n")
+    print("A typical IoT microcontroller requires 0.5 Watts per hour or", hoursCalc*0.5/1000, "kWh per year\n")
 
     microCurrent = int(input("How many milliamps per hour does your IoT microcontroller need? "))
     microVoltage = float(input("How many Volts does your IoT microcontroller need? "))    
     #microWatts = (150/1000)*3.3
     microWatts = round((microCurrent/1000)*microVoltage,3)
-    print("Your IoT microcontroller likely needs ", round(microWatts/1000,5), "kWh or ", round(hours*microWatts/1000,2), "kWh per year\n")
+    print("Your IoT microcontroller likely needs ", round(microWatts/1000,5), "kWh or ", round(hoursCalc*microWatts/1000,2), "kWh per year\n")
     
     # this updates a global variable and is bad form ... to do: redo script using object oriented programming    
     global watts 
@@ -73,7 +73,7 @@ def solarPanel():
     print ("Anchorage Alaska receives approximately 19.2 hours of sunlight per day in June\n")    
     
 def main():    
-    Hours()
+    hoursCalc()
     microPower()
     solarPanel()
     
