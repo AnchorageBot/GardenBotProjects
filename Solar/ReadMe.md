@@ -10,7 +10,7 @@
 
 [Voltaic Systems - Batteries and PV Panels](https://voltaicsystems.com)
 
-## Typical IoT Power, Voltage, and Current Specifications (Outputs, Inputs, Safe Discharge Rates) 
+## Typical IoT Power, Voltage, and Current (Outputs, Inputs, Safe Discharge Rates) 
 
 - AA Battery:                 4 Watts = (1.5 Volts)(2500 milliAmps)
 
