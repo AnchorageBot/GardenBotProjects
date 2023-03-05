@@ -10,7 +10,13 @@
 
 [Voltaic Systems - Batteries and PV Panels](https://voltaicsystems.com)
 
-## Typical IoT Power, Voltage, and Current Requirements
+## Typical IoT Power, Voltage, and Current Outputs and Requirements
+
+- AA Battery:                 3.75 Watts = (1.5 Volts)(2500 milliAmps)
+
+- 12V Motorcycle Battery:     31.5 Watts = (12.6 Volts)(2.5 Amps)
+
+- 12V Car Battery             1323 Watts = (12.6 Volts)(105 Amps)
 
 - Microcontroller:            0.5 Watts = (3.7 Volts)(150 milliAmps) 
 
