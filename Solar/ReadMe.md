@@ -16,7 +16,7 @@
 
 - 12V Motorcycle Battery:     31.5 Watts = (12.6 Volts)(2.5 Amps)
 
-- 12V Car Battery             1323 Watts = (12.6 Volts)(105 Amps)
+- 12V Car Battery:            1323 Watts = (12.6 Volts)(105 Amps)
 
 - Microcontroller:            0.5 Watts = (3.7 Volts)(150 milliAmps) 
 
