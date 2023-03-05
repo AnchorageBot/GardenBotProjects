@@ -12,11 +12,11 @@
 
 ## Typical IoT Power, Voltage, and Current Outputs and Requirements
 
-- AA Battery:                 3.75 Watts = (1.5 Volts)(2500 milliAmps)
+- AA Battery:                 4 Watts = (1.5 Volts)(2500 milliAmps)
 
-- 12V Motorcycle Battery:     31.5 Watts = (12.6 Volts)(2.5 Amps)
+- 12V Motorcycle Battery:     32 Watts = (12.6 Volts)(2.5 Amps)
 
-- 12V Car Battery:            1323 Watts = (12.6 Volts)(105 Amps)
+- 12V Car Battery:            252 Watts = (12.6 Volts)(20 Amps)
 
 - 12V Deep Cycle Battery:
 
@@ -26,4 +26,8 @@
 
 - Microcontroller:            0.5 Watts = (3.3 Volts)(150 milliAmps) 
 
-- Single Board Computer:      12.5 Watts = (5 Volts)(2.5 Amps)
+- Single Board Computer:      13 Watts = (5 Volts)(2.5 Amps)
+
+- 12V Space Heater:           180 Watts = (12 Volts)(15 Amps)
+
+- 120V Quartz Heater:         1500 Watts = (120 Volts)(12.5 Amps)
