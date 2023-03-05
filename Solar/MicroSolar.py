@@ -37,12 +37,10 @@ def hoursCalc():
     
 def microPower():    
 #def microPower(microCurrent, microVoltage):
-    """This function calculates the number of kilowatt hours required by a typical microcontroller""" 
-    print("Current is defined as the flow of electrons and uses the units of Amps per unit of time")
+    """This function calculates the number of watts required by a typical microcontroller""" 
+    print("Current is defined as the flow of electrons and uses the units of Amps (columbs per second)")
     print("There are 1000 milliamps in a Amp")
-    #print("A typical IoT microcontroller requires 150 milliamps per hour or 1,314 Amps per year\n")    
-    #print("A typical IoT microcontroller requires 150 milliamps per hour or", hours*150/1000, "Amps per year\n")
-    print("A typical IoT microcontroller requires 150 milliamps per hour\n")
+    print("A typical IoT microcontroller requires 150 milliamps\n")
     
     print("Voltage is defined as the electrical potential difference between two points and uses the units of Volts")
     print("Water pressure is similar to voltage")
@@ -50,16 +48,13 @@ def microPower():
     
     print("Power, or the rate of energy transfer, uses the units of Watts (J/s) in electrical systems")
     print("Watts can be calculated by multiplying Volts by Amps")
-    print("A typical IoT microcontroller requires 0.5 Watts or", 0.5/1000, "kWh\n")    
-    #print("A typical IoT microcontroller requires 0.5 Watts or 4.3 kWh per year\n")    
-    #print("A typical IoT microcontroller requires 0.5 Watts or", hours*0.5/1000, "kWh per year\n")
+    print("A typical IoT microcontroller requires ", 0.5/1000, "watts\n")    
 
-    microCurrent = int(input("How many milliamps per hour does your IoT microcontroller need? "))
-    microVoltage = float(input("How many Volts does your IoT microcontroller need? "))    
-    #microWatts = (150/1000)*3.3
-    microWatts = round((microCurrent/1000)*microVoltage,3)
-    #print("Your IoT microcontroller likely needs ", round(microWatts/1000,5), "kWh or ", round(hours*microWatts/1000,2), "kWh per year\n")
-    print("Your IoT microcontroller likely needs ", round(microWatts/1000,5), "kWh\n")
+    mcuCurrent = int(input("How many milliamps does your IoT microcontroller need? "))
+    mcuVoltage = float(input("How many Volts does your IoT microcontroller need? "))    
+    #mcuWatts = (150/1000)*3.3
+    mcuWatts = round((microCurrent/1000)*microVoltage,3)
+    print("Your IoT microcontroller likely needs ", round(mcuWatts/1000,5), "watts\n")
     
     # this updates a global variable and is bad form ... to do: redo script using object oriented programming    
     global watts 
