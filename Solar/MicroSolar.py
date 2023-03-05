@@ -22,12 +22,12 @@ hours = 0
 watts = 0
 
 def hoursCalc():
-    """This function calculates the number of hours and updates a global variable"""
+    """This function calculates the number of earth year hours and updates a global variable"""
     #print("There are 365 days in a year")
     #print("There are 24 hours in a day")
     #print("There are 8760 hours in a year")
     yH = 365*24
-    #print("There are ", yH, " hours in a year\n")
+    #print("There are ", yH, " hours in a earth year\n")
 
     # this updates a global variable and is bad form ... to do: redo script using object oriented programming
     global hours
@@ -77,7 +77,7 @@ def solarPanel():
     print("This equates to ", round(xAreaWinter*10000,4), "square centimeters or", round(xAreaWinter*10000*(1/6.452),2), "square inches in size in January\n")
     WinterTestPanelHeight = 3.5 # inches
     WinterTestPanelWidth = 4.5 # inches
-    print("The January 2023 test panel, for a 3.3V 150 milliAmp MCU, was about", WinterTestPanelHeight*WinterTestPanelWidth, "square inches in size")
+    print("The January 2023 indoor test panel, for a 3.3V 150 milliAmp MCU, was about", WinterTestPanelHeight*WinterTestPanelWidth, "square inches in size")
     print("https://www.adafruit.com/product/3809\n")
     
     print("Anchorage Alaska receives approximately 5.06 kWh of sunlight per square meter and 19.2 hours of sunlight per day in June")
@@ -92,7 +92,7 @@ def solarPanel():
     print("This equates to ", round(xAreaSummer*10000,4), "square centimeters or", round(xAreaSummer*10000*(1/6.452),2), "square inches in size in June\n")
     SummerTestPanelDiameter = 2 # inches
     SummerTestPanelQuantity = 2
-    print("The June 2022 test panel, for a 3.3V 150 milliAmp MCU, was about", round(SummerTestPanelQuantity*3.14*(SummerTestPanelDiameter*SummerTestPanelDiameter)*0.25,1), "square inches in size")
+    print("The June 2022 indoor test panel, for a 3.3V 150 milliAmp MCU, was about", round(SummerTestPanelQuantity*3.14*(SummerTestPanelDiameter*SummerTestPanelDiameter)*0.25,1), "square inches in size")
     print("https://www.adafruit.com/product/700\n")    
     
 def battery():
