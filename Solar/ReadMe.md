@@ -30,4 +30,4 @@
 
 - 12V Space Heater:           189 Watts = (12.6 Volts)(15 Amps)
 
-- 120V Space Heater:          1500 Watts = (120 Volts)(12.5 Amps)
+- 120V Space Heater:          1375 Watts = (110 Volts)(12.5 Amps)
