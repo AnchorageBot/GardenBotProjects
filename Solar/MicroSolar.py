@@ -36,7 +36,7 @@ def hoursCalc():
     #print(hours)
     
 def microPower():    
-#def microPower(microCurrent, microVoltage):
+#def microPower(mcuCurrent, mcuVoltage):
     """This function calculates the number of watts required by a typical microcontroller""" 
     print("Current is defined as the flow of electrons and uses the units of Amps (columbs per second)")
     print("There are 1000 milliamps in a Amp")
@@ -53,13 +53,13 @@ def microPower():
     mcuCurrent = int(input("How many milliamps does your IoT microcontroller need? "))
     mcuVoltage = float(input("How many Volts does your IoT microcontroller need? "))    
     #mcuWatts = (150/1000)*3.3
-    mcuWatts = round((microCurrent/1000)*microVoltage,3)
+    mcuWatts = round((mcuCurrent/1000)*mcuVoltage,3)
     print("Your IoT microcontroller likely needs ", round(mcuWatts/1000,5), "watts\n")
     
     # this updates a global variable and is bad form ... to do: redo script using object oriented programming    
     global watts 
     #print(watts)
-    watts  = microWatts + watts
+    watts  = mcuoWatts + watts
     #print(watts)
     
 def solarPanel():
