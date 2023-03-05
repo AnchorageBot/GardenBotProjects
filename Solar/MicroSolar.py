@@ -52,8 +52,7 @@ def microPower():
 
     mcuCurrent = int(input("How many milliamps does your IoT microcontroller need? "))
     mcuVoltage = float(input("How many Volts does your IoT microcontroller need? "))    
-    #mcuWatts = (150/1000)*3.3
-    mcuWatts = round((mcuCurrent/1000)*mcuVoltage,3)
+    mcuWatts = round((mcuCurrent/1000)*mcuVoltage,2)
     print("Your IoT microcontroller likely needs ", round(mcuWatts,2), "watts\n")
     
     # this updates a global variable and is bad form ... to do: redo script using object oriented programming    
@@ -66,11 +65,9 @@ def solarPanel():
     """This function helps to estimate the size of solar panel needed to support a microcontroller"""
     print("A typical solar panel is likely to be able to capture 14% of available sunlight\n")
     
-    print("Anchorage Alaska receives approximately 0.7 kWh of sunlight per square meter per day in January")
-    print ("Anchorage Alaska receives approximately 6.5 hours of sunlight per day in January\n")
+    print("Anchorage Alaska receives approximately 0.7 kWh of sunlight per square meter and 6.5 hours of sunlight per day in January\n")
     
-    print("Anchorage Alaska receives approximately 5.06 kWh of sunlight per square meter per day in June")
-    print ("Anchorage Alaska receives approximately 19.2 hours of sunlight per day in June\n")    
+    print("Anchorage Alaska receives approximately 5.06 kWh of sunlight per square meter and 19.2 hours of sunlight per day in June\n")    
     
 def battery():
     """This function helps to estimate the size of a battery needed to support a microcontroller"""
