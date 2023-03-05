@@ -91,7 +91,7 @@ def solarPanel():
     print("Your microcontroller will likely need a panel that is ", round(xAreaSummer,4), "sqaure meters in size")
     print("This equates to ", round(xAreaSummer*10000,4), "square centimeters or", round(xAreaSummer*10000*(1/6.452),2), "square inches in size in June\n")
     SummerTestPanelDiameter = 2 # inches
-    SummerTestPanelQuantity = 2
+    SummerTestPanelQuantity = 1
     print("The June 2022 test panel, for a 3.3V 150 milliAmp MCU, was about", round(SummerTestPanelQuantity*3.14*(SummerTestPanelDiameter*SummerTestPanelDiameter)*0.25,1), "square inches in size")
     print("https://www.adafruit.com/product/700\n")    
     
