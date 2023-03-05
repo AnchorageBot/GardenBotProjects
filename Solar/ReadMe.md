@@ -18,6 +18,6 @@
 
 - 12V Car Battery:            1323 Watts = (12.6 Volts)(105 Amps)
 
-- Microcontroller:            0.5 Watts = (3.7 Volts)(150 milliAmps) 
+- Microcontroller:            0.5 Watts = (3.3 Volts)(150 milliAmps) 
 
 - Single Board Computer:      12.5 Watts = (5 Volts)(2.5 Amps)
