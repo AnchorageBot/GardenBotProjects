@@ -1,4 +1,4 @@
-# This script will provide a calculation that helps to size a solar panel and battery for a microcontroller
+# This script will provide an estimate that helps to size a solar panel and battery for a microcontroller
 
 # References 
     # Andreas Spiess
@@ -96,7 +96,7 @@ def solarPanel():
     print("https://www.adafruit.com/product/700\n")    
     
 def battery():
-    """This function helps to estimate the size of a battery needed to support a microcontroller"""
+    """This function helps to estimate the size and type of a battery needed to support a microcontroller"""
     print("Anchorage Alaska will likely reach -15F during a typical January")
 
 def main():
@@ -110,3 +110,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    
