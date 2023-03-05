@@ -28,7 +28,7 @@
 
 - Microcontroller:            0.5 Watts = (3.3 Volts)(150 milliAmps) 
 
-- Single Board Computer:      13 Watts = (5 Volts)(2.5 Amps)
+- Single Board Computer:      13 Watts = (5 Volts)(2500 milliAmps)
 
 - 12V Space Heater:           189 Watts = (12.6 Volts)(15 Amps)
 
