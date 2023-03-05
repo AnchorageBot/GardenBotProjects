@@ -28,6 +28,6 @@
 
 - Single Board Computer:      13 Watts = (5 Volts)(2.5 Amps)
 
-- 12V Space Heater:           180 Watts = (12 Volts)(15 Amps)
+- 12V Space Heater:           189 Watts = (12.6 Volts)(15 Amps)
 
-- 120V Quartz Heater:         1500 Watts = (120 Volts)(12.5 Amps)
+- 120V Space Heater:          1500 Watts = (120 Volts)(12.5 Amps)
