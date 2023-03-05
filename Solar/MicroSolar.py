@@ -54,7 +54,7 @@ def microPower():
     mcuVoltage = float(input("How many Volts does your IoT microcontroller need? "))    
     #mcuWatts = (150/1000)*3.3
     mcuWatts = round((mcuCurrent/1000)*mcuVoltage,3)
-    print("Your IoT microcontroller likely needs ", round(mcuWatts/1000,5), "watts\n")
+    print("Your IoT microcontroller likely needs ", round(mcuWatts,2), "watts\n")
     
     # this updates a global variable and is bad form ... to do: redo script using object oriented programming    
     global watts 
