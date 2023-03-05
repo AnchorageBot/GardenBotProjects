@@ -48,7 +48,7 @@ def microPower():
     
     print("Power, or the rate of energy transfer, uses the units of Watts (J/s) in electrical systems")
     print("Watts can be calculated by multiplying Volts by Amps")
-    print("A typical IoT microcontroller requires ", 0.5/1000, "watts\n")    
+    print("A typical IoT microcontroller requires ", 0.5, "watts\n")    
 
     mcuCurrent = int(input("How many milliamps does your IoT microcontroller need? "))
     mcuVoltage = float(input("How many Volts does your IoT microcontroller need? "))    
