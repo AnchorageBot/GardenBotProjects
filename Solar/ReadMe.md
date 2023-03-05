@@ -1,5 +1,7 @@
 ## This folder holds references and scripts to assist with using batteries and PV panels with GardenBot
 
+[The Arduino Guide to Low Power Design](https://docs.arduino.cc/learn/electronics/low-power)
+
 [CircuitPython Alarm Module](https://docs.circuitpython.org/en/latest/shared-bindings/alarm/index.html)
 
 [Dakota Lithium - Batteries and PV Panels](https://dakotalithium.com)
