@@ -1,4 +1,4 @@
-## This folder holds references and scripts to assist with using solar with GardenBot
+## This folder holds references and scripts to assist with using batteries and PV panels with GardenBot
 
 [CircuitPython Alarm Module](https://docs.circuitpython.org/en/latest/shared-bindings/alarm/index.html)
 
