@@ -8,4 +8,4 @@
 
 [NREL Photovoltaic Calculator Website](https://pvwatts.nrel.gov/index.php)
 
-[Voltaic Systems - Batteries and PV Panels for Iot](https://voltaicsystems.com)
+[Voltaic Systems - Batteries and PV Panels](https://voltaicsystems.com)
