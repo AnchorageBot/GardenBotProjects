@@ -69,7 +69,7 @@ def solarPanel():
     janHours = 6.5
     janWattsSqMeter = 0.7*1000*6.5
     #print(watts)
-    print("Your microcontroller will need ", watts*janHours, "watts and the sun will provide ", janWattsSqMeter, "watts/m^2 during a typical January day")
+    print("Your microcontroller will need about ", round(watts*janHours,1), "watts and the sun will provide about ", round(janWattsSqMeter,1), "watts/m^2 during a typical January day")
     sysEfficiency = 0.07
     xAreaWinter = (watts*janHours)*(1/(janWattsSqMeter*sysEfficiency))
     #print(watts*janHours == xAreaWinter*janWattsSqMeter*sysEfficiency)
@@ -84,14 +84,14 @@ def solarPanel():
     juneHours = 19.2
     juneWattsSqMeter = 5.06*1000*19.2
     #print(watts)
-    print("Your microcontroller will need ", watts*juneHours, "watts and the sun will provide ", juneWattsSqMeter, "watts/m^2 during a typical June day")
+    print("Your microcontroller will need about ", round(watts*juneHours,1), "watts and the sun will provide about", round(juneWattsSqMeter,1), "watts/m^2 during a typical June day")
     sysEfficiency = 0.10
     xAreaSummer = (watts*juneHours)*(1/(juneWattsSqMeter*sysEfficiency))
     #print(watts*juneHours == xAreaSummer*juneWattsSqMeter*sysEfficiency)
     print("Your microcontroller will likely need a panel that is ", round(xAreaSummer,4), "sqaure meters in size")
     print("This equates to ", round(xAreaSummer*10000,4), "square centimeters or", round(xAreaSummer*10000*(1/6.452),2), "square inches in size in June\n")
     SummerTestPanelDiameter = 2 # inches
-    SummerTestPanelQuantity = 1
+    SummerTestPanelQuantity = 2
     print("The June 2022 test panel, for a 3.3V 150 milliAmp MCU, was about", round(SummerTestPanelQuantity*3.14*(SummerTestPanelDiameter*SummerTestPanelDiameter)*0.25,1), "square inches in size")
     print("https://www.adafruit.com/product/700\n")    
     
