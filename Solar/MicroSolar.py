@@ -86,7 +86,7 @@ def solarPanel():
     #print(watts)
     print("Your microcontroller will need ", watts*juneHours, "watts and the sun will provide ", juneWattsSqMeter, "watts/m^2 during a typical June day")
     sysEfficiency = 0.10
-    #watts*juneHours = juneWattsSqMeter*xAreaWinter*sysEfficiency
+    #watts*juneHours = juneWattsSqMeter*xAreaSummer*sysEfficiency
     xAreaSummer = (watts*juneHours)*(1/(juneWattsSqMeter*sysEfficiency))
     print("Your microcontroller will likely need a panel that is ", round(xAreaSummer,4), "sqaure meters in size")
     print("This equates to ", round(xAreaSummer*10000,4), "square centimeters or", round(xAreaSummer*10000*(1/6.452),2), "square inches in size in June\n")
