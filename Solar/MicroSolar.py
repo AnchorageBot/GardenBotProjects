@@ -59,7 +59,7 @@ def microPower():
     # this updates a global variable and is bad form ... to do: redo script using object oriented programming    
     global watts 
     #print(watts)
-    watts  = mcuoWatts + watts
+    watts  = mcuWatts + watts
     #print(watts)
     
 def solarPanel():
