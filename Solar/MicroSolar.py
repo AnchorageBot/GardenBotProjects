@@ -50,7 +50,7 @@ def microPower():
     print("Watts can be calculated by multiplying Volts by Amps")
     print("A typical IoT microcontroller requires 0.5 watts\n")    
 
-    mcuCurrent = int(input("How many milliamps does your IoT microcontroller need? "))
+    mcuCurrent = float(input("How many milliamps does your IoT microcontroller need? "))
     mcuVoltage = float(input("How many Volts does your IoT microcontroller need? "))    
     mcuWatts = round((mcuCurrent/1000)*mcuVoltage,2)
     print("Your IoT microcontroller likely needs ", round(mcuWatts,2), "watts\n")
@@ -63,11 +63,36 @@ def microPower():
     
 def solarPanel():
     """This function helps to estimate the size of solar panel needed to support a microcontroller"""
-    print("A typical solar panel is likely to be able to capture 14% of available sunlight\n")
+    print("A typical solar panel and microcontroller system is likely to be able to capture and use 7% of available sunlight\n")
     
-    print("Anchorage Alaska receives approximately 0.7 kWh of sunlight per square meter and 6.5 hours of sunlight per day in January\n")
+    print("Anchorage Alaska receives approximately 0.7 kWh of sunlight per square meter and 6.5 hours of sunlight per day in January")
+    janHours = 6.5
+    janWattsSqMeter = 0.7*1000*6.5
+    #print(watts)
+    print("Your microcontroller will need ", watts*janHours, "watts and the sun will provide ", janWattsSqMeter, "watts/m^2 during a typical January day")
+    sysEfficiency = 0.07
+    #watts*janHours = janWattsSqMeter*xAreaWinter*sysEfficiency
+    xAreaWinter = (watts*janHours)*(1/(janWattsSqMeter*sysEfficiency))
+    print("Your microcontroller will likely need a panel that is ", round(xAreaWinter,4), "sqaure meters in size")
+    print("This equates to ", round(xAreaWinter*10000,4), "square centimeters or", round(xAreaWinter*10000*(1/6.452),2), "square inches in size in January\n")
+    WinterTestPanelHeight = 3.5 # inches
+    WinterTestPanelWidth = 4.5 # inches
+    print("The January 2023 test panel, for a 3.3V 150 milliAmp MCU, was about", WinterTestPanelHeight*WinterTestPanelWidth, "square inches in size")
+    print("https://www.adafruit.com/product/3809\n")
     
-    print("Anchorage Alaska receives approximately 5.06 kWh of sunlight per square meter and 19.2 hours of sunlight per day in June\n")    
+    print("Anchorage Alaska receives approximately 5.06 kWh of sunlight per square meter and 19.2 hours of sunlight per day in June")
+    juneHours = 19.2
+    juneWattsSqMeter = 5.06*1000*19.2
+    #print(watts)
+    print("Your microcontroller will need ", watts*juneHours, "watts and the sun will provide ", juneWattsSqMeter, "watts/m^2 during a typical June day")
+    sysEfficiency = 0.10
+    #watts*juneHours = juneWattsSqMeter*xAreaWinter*sysEfficiency
+    xAreaSummer = (watts*juneHours)*(1/(juneWattsSqMeter*sysEfficiency))
+    print("Your microcontroller will likely need a panel that is ", round(xAreaSummer,4), "sqaure meters in size")
+    print("This equates to ", round(xAreaSummer*10000,4), "square centimeters or", round(xAreaSummer*10000*(1/6.452),2), "square inches in size in June\n")
+    SummerTestPanelDiameter = 2 # inches
+    print("The June 2022 test panel, for a 3.3V 150 milliAmp MCU, was about", round(3.14*(SummerTestPanelDiameter*SummerTestPanelDiameter)*0.25,1), "square inches in size")
+    print("https://www.adafruit.com/product/700\n")    
     
 def battery():
     """This function helps to estimate the size of a battery needed to support a microcontroller"""
