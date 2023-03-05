@@ -18,6 +18,10 @@
 
 - 12V Car Battery:            1323 Watts = (12.6 Volts)(105 Amps)
 
+- 12V Deep Cycle Battery:
+
+- 12V PV Panel:               100 Watts = (18 Volts)(5.5 Amps)
+
 - Microcontroller:            0.5 Watts = (3.3 Volts)(150 milliAmps) 
 
 - Single Board Computer:      12.5 Watts = (5 Volts)(2.5 Amps)
