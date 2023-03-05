@@ -63,7 +63,7 @@ def microPower():
     
 def solarPanel():
     """This function helps to estimate the size of solar panel needed to support a microcontroller"""
-    print("A typical solar panel and microcontroller system is likely to be able to capture and use 7% of available sunlight\n")
+    print("A typical solar panel and microcontroller system is likely to be able to capture and use about 7% of available sunlight\n")
     
     print("Anchorage Alaska receives approximately 0.7 kWh of sunlight per square meter and 6.5 hours of sunlight per day in January")
     janHours = 6.5
@@ -85,7 +85,7 @@ def solarPanel():
     juneWattsSqMeter = 5.06*1000*19.2
     #print(watts)
     print("Your microcontroller will need about ", round(watts*juneHours,1), "watts and the sun will provide about", round(juneWattsSqMeter,1), "watts/m^2 during a typical June day")
-    sysEfficiency = 0.10
+    sysEfficiency = 0.07
     xAreaSummer = (watts*juneHours)*(1/(juneWattsSqMeter*sysEfficiency))
     #print(watts*juneHours == xAreaSummer*juneWattsSqMeter*sysEfficiency)
     print("Your microcontroller will likely need a panel that is ", round(xAreaSummer,4), "sqaure meters in size")
