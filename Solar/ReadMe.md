@@ -26,7 +26,7 @@
 
 - 5V PV Panel:                2 Watts = (6 Volts)(330 milliAmps)
 
-- Microcontroller:            0.5 Watts = (3.3 Volts)(150 milliAmps) 
+- Microcontroller:            1 Watts = (3.3 Volts)(300 milliAmps) 
 
 - Single Board Computer:      13 Watts = (5 Volts)(2500 milliAmps)
 
