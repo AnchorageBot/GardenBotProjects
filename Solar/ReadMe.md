@@ -16,6 +16,8 @@
 
 - AA Battery:                 4 Watts = (1.5 Volts)(2500 milliAmps)
 
+- Voltaic V25 Battery:        10 Watts = (5 Volts)(2 Amps)
+
 - 12V Motorcycle Battery:     32 Watts = (12.6 Volts)(2.5 Amps)
 
 - 12V Car Battery:            252 Watts = (12.6 Volts)(20 Amps)
