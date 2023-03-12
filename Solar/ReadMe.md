@@ -38,7 +38,7 @@
 
 - 120V Space Heater:          1375 Watts = (110 Volts)(12.5 Amps)
 
-## IoT Microcontroller & Sensors + PV & Battery System
+## Standalone IoT System Microcontroller + Sensors + PV Panel + Battery
 
 - Microntroller & Sensors:    1 Watt = (3.3 Volts)(300 milliamps)
 - 5V PV Panel:                3 Watts = (6 Volts)(550 milliamps)
