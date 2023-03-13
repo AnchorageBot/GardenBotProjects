@@ -42,4 +42,4 @@
 
 - Microntroller & Sensors:    1 Watt = (3.3 Volts)(300 milliamps)
 - 5V PV Panel:                3 Watts = (6 Volts)(550 milliamps)
-- Voltaic V25 Battery:        10 Watts = (5 Volts)(2000 miliamps)
+- Voltaic V25 Battery:        10 Watts = (5 Volts)(2000 milliamps)
