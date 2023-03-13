@@ -1,4 +1,4 @@
-## This folder holds references and scripts to assist with using batteries and PV panels with GardenBot
+## References and scripts to assist with using batteries and PV panels with GardenBot
 
 [The Arduino Guide to Low Power Design](https://docs.arduino.cc/learn/electronics/low-power)
 
