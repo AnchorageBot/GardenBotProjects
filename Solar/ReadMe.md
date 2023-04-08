@@ -20,14 +20,19 @@
 - 12V Car Battery:            252 Watts = (12.6 Volts)(20 Amps)
 - 12V Deep Cycle Battery:
 <br>
+
 - 12V PV Panel:               100 Watts = (18 Volts)(5.5 Amps)
 - 5V PV Panel:                5 Watts = (6 Volts)(930 milliamperes)
 - 5V PV Panel:                3 Watts = (6 Volts)(550 milliamperes)
 - 5V PV Panel:                2 Watts = (6 Volts)(330 milliamperes)
 - 5V PV Panel:                1 Watt = (6 Volts)(180 milliamperes)
 
+<br>
+
 - Microcontroller & Sensors:  1 Watt = (3.3 Volts)(300 milliamperes) 
 - Single Board Computer:      13 Watts = (5 Volts)(2500 milliamperes)
+
+<br>
 
 - 12V Space Heater:           189 Watts = (12.6 Volts)(15 Amps)
 - 120V Space Heater:          1375 Watts = (110 Volts)(12.5 Amps)
