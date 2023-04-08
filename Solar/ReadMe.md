@@ -19,7 +19,7 @@
 - 12V Motorcycle Battery:     32 Watts = (12.6 Volts)(2.5 Amps)
 - 12V Car Battery:            252 Watts = (12.6 Volts)(20 Amps)
 - 12V Deep Cycle Battery:
-
+<br>
 - 12V PV Panel:               100 Watts = (18 Volts)(5.5 Amps)
 - 5V PV Panel:                5 Watts = (6 Volts)(930 milliamperes)
 - 5V PV Panel:                3 Watts = (6 Volts)(550 milliamperes)
