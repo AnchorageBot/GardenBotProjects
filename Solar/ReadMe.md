@@ -23,6 +23,7 @@
 - 12V PV Panel:               100 Watts = (18 Volts)(5.5 Amps)
 - 5V PV Panel:                3 Watts = (6 Volts)(550 milliamps)
 - 5V PV Panel:                2 Watts = (6 Volts)(330 milliAmps)
+- 5V PV Panel:                1 Watt = (6 Volts)(180 milliamps)
 
 - Microcontroller & Sensors:  1 Watt = (3.3 Volts)(300 milliAmps) 
 - Single Board Computer:      13 Watts = (5 Volts)(2500 milliAmps)
