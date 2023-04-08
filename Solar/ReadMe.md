@@ -14,19 +14,20 @@
 
 ## Typical IoT Power, Voltage, and Current (Outputs, Inputs, Safe Discharge Rates) 
 
-- AA Battery:                 4 Watts = (1.5 Volts)(2500 milliAmps)
+- AA Battery:                 4 Watts = (1.5 Volts)(2500 milliamperes)
 - Voltaic V25 Battery:        10 Watts = (5 Volts)(2 Amps)
 - 12V Motorcycle Battery:     32 Watts = (12.6 Volts)(2.5 Amps)
 - 12V Car Battery:            252 Watts = (12.6 Volts)(20 Amps)
 - 12V Deep Cycle Battery:
 
 - 12V PV Panel:               100 Watts = (18 Volts)(5.5 Amps)
-- 5V PV Panel:                3 Watts = (6 Volts)(550 milliamps)
-- 5V PV Panel:                2 Watts = (6 Volts)(330 milliAmps)
-- 5V PV Panel:                1 Watt = (6 Volts)(180 milliamps)
+- 5V PV Panel:                5 Watts = (6 Volts)(930 milliamperes)
+- 5V PV Panel:                3 Watts = (6 Volts)(550 milliamperes)
+- 5V PV Panel:                2 Watts = (6 Volts)(330 milliamperes)
+- 5V PV Panel:                1 Watt = (6 Volts)(180 milliamperes)
 
-- Microcontroller & Sensors:  1 Watt = (3.3 Volts)(300 milliAmps) 
-- Single Board Computer:      13 Watts = (5 Volts)(2500 milliAmps)
+- Microcontroller & Sensors:  1 Watt = (3.3 Volts)(300 milliamperes) 
+- Single Board Computer:      13 Watts = (5 Volts)(2500 milliamperes)
 
 - 12V Space Heater:           189 Watts = (12.6 Volts)(15 Amps)
 - 120V Space Heater:          1375 Watts = (110 Volts)(12.5 Amps)
