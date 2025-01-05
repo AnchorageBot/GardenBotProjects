@@ -15,6 +15,8 @@
    [RPi Cam](https://github.com/AnchorageBot/GardenBot/blob/master/RPi_Cam.py) - Raspberry Pi Zero Datalogger
   
    [RPi Server - Serial Cable](https://github.com/AnchorageBot/GardenBot/blob/master/RPi_Get_MCU_Data.py) - Raspberry Pi Zero, 3+, and or 4 - Connect to any version of GardenBot 
+
+   [DIY Tissue Culture: How to Get Started for Less Than $200 - Plants in Jars - Youtube](https://youtu.be/lWVjYbvsIaA?si=64nezxGQ7ssjUuRE)
    
    ## Resources
    
